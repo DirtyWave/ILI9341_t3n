@@ -2002,7 +2002,7 @@ static const uint8_t init_commands[] = {
 	6, 0xCB, 0x39, 0x2C, 0x00, 0x34, 0x02,
 	2, 0xF7, 0x20,
 	3, 0xEA, 0x00, 0x00,
-	2, ILI9341_PWCTR1, 0x23, // Power control
+	2, ILI9341_PWCTR1, 0x0A, // Power control - 3v3
 	2, ILI9341_PWCTR2, 0x10, // Power control
 	3, ILI9341_VMCTR1, 0x3e, 0x28, // VCM control
 	2, ILI9341_VMCTR2, 0x86, // VCM control2
